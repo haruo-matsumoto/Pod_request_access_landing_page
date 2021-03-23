@@ -1,0 +1,19 @@
+.title__secondline{
+    position: absolute;
+    width: 327px;
+    height: 76px;
+    left: 24px;
+    top: 175px;
+    
+    font-family: Chivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 38px;
+    /* or 146% */
+    
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+}
