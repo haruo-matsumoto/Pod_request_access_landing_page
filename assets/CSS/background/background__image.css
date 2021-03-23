@@ -1,0 +1,10 @@
+.background__image {
+    position: absolute;
+    width: 375px;
+    height: 667px;
+    left: 0px;
+    top: 0px;
+    
+    mix-blend-mode: normal;
+    opacity: 0.1;
+    }
