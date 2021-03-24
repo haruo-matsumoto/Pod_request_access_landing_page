@@ -1,0 +1,39 @@
+.main__brand {
+position: absolute;
+width: 313.85px;
+height: 17px;
+left: auto;
+top: auto;
+}
+
+.main__brand--spotify {
+position: absolute;
+width: 55.94px;
+height: 16.95px;
+left: 30.03px;
+top: 400.03px;
+}
+.main__brand--apple {
+position: absolute;
+width: 45px;
+height: 17px;
+left: 109px;
+top: 400px;
+}
+
+.main__brand--google{
+position: absolute;
+width: 72.97px;
+height: 10.67px;
+left: 179px;
+top: 403px;
+}
+
+.main__brand--pocket {
+position: absolute;
+width: 75.88px;
+height: 14.9px;
+left: 268px;
+top: 401px;
+
+}
