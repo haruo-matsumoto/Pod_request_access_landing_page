@@ -1,0 +1,14 @@
+.text {
+position: absolute;
+width: 327px;
+height: 100px;
+left: 24px;
+top: 267px;
+
+font-size: 15px;
+line-height: 25px;
+
+text-align: center;
+
+color: #C2CBE5;
+}
