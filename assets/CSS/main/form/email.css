@@ -1,0 +1,23 @@
+.email {
+background-color: #696969 ;
+
+border-radius: 6rem;
+width: 327px;
+height: 46px;
+left: 24px;
+top: 465px;
+mix-blend-mode: normal;
+opacity: 0.5;
+}
+
+.email::placeholder {
+font-size: 14px;
+color: #FFFFFF;
+
+
+height: 28px;
+left: 9.79%;
+padding-left: 5%;
+right: 61.16%;
+top: calc(50% - 28px/2);
+}
