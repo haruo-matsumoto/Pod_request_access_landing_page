@@ -7,21 +7,22 @@
   <link href="./assets/css/normalize.css" rel="stylesheet">
   <link href="./assets/css/reset.css" rel="stylesheet">
   <link href="./assets/CSS/header/logo.css" rel="stylesheet">
-  <link href="./assets/CSS/header/text.css" rel="stylesheet">
-  <link href="./assets/CSS/background/background.css" rel="stylesheet">
   <link href="./assets/CSS/background/background__image.css" rel="stylesheet">
   <link href="./assets/CSS/main/container.css" rel="stylesheet">
   <link href="./assets/CSS/main/title/title.css" rel="stylesheet">
   <link href="./assets/CSS/main/title/title-secondline.css" rel="stylesheet">
   <link href="./assets/CSS/main/text.css" rel="stylesheet">
   <link href="./assets/CSS/main/brand-podcast.css" rel="stylesheet">
-  <link href="./assets/CSS/" rel="stylesheet">
+  <link href="./assets/CSS/main/form/form.css" rel="stylesheet">
+  <link href="./assets/CSS/main/form/email.css" rel="stylesheet">
+  <link href="./assets/CSS/main/form/button.css" rel="stylesheet">
+  <script> src="/js/access.js"</script>
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
   
   <title>Frontend Mentor | Pod request access landing page</title>
 </head>
 <body>
-  <img class="background__image" alt="" src="./assets/desktop/image-host.jpg"> 
+  <img class="background__image" alt="" src="./assets/mobile/image-host.jpg"> 
 <header>
   <img class="header__logo" alt="logo" src="./assets/desktop/logo.svg"> 
 </header>
@@ -34,12 +35,22 @@
 
   <section class="main__brand">
     <img class="main__brand--spotify" alt="Spotify"         src="./assets/desktop/Spotify.svg">
-    <img class="main__brand--apple" alt="apple-podcast"   src="./assets/desktop/apple-podcast.svg">
-    <img class="main__brand--google" alt="google-podcasts" src="./assets/desktop/google-podcasts.svg">
-    <img class="main__brand--pocket" alt="pocket-casts"    src="./assets/desktop/pocket-casts.svg">
+    <img class="main__brand--apple"   alt="apple-podcast"   src="./assets/desktop/apple-podcast.svg">
+    <img class="main__brand--google"  alt="google-podcasts" src="./assets/desktop/google-podcasts.svg">
+    <img class="main__brand--pocket"  alt="pocket-casts"    src="./assets/desktop/pocket-casts.svg">
   </section>  
 
-  Request access </main>
+  <form class="form">
+    <div>  
+      <input class="email" type="text" placeholder="Email address">
+      <button class="button" onclick="requestAccess">Request access</button> 
+    </div>
+
+  </form>
+
+
+
+</main>
   
  
 </body>
