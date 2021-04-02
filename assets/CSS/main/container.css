@@ -1,7 +1,26 @@
-.container {
-    /*position: absolute;*/
-    width: 327px;
-    height: 398px;
-    left: 24px;
-    top: 175px;    
+@media screen and (max-width: 375px) {
+    .container {
+        /*position: absolute;*/
+        width: 327px;
+        height: 398px;
+        left: 24px;
+        top: 175px;    
+    }
+}
+@media screen and (min-width: 768px) {
+    .container {
+        position: relative;
+        background-color: black;
+        width: 635px;
+        height: 416px;
+        left: 39px;
+        top: 351px;
+        
+    }
+
+}
+
+@media screen and (min-width: 1275px) {
+   
+
 }

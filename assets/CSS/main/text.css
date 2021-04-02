@@ -1,14 +1,47 @@
 .text {
 position: absolute;
-width: 327px;
-height: 100px;
-left: 24px;
-top: 267px;
 
-font-size: 15px;
-line-height: 25px;
 
 text-align: center;
 
 color: #C2CBE5;
+}
+
+@media screen and (max-width: 375px) {
+    .text {
+        width: 327px;
+        height: 100px;
+        left: 24px;
+        top: 267px;
+        
+        font-size: 15px;
+        line-height: 25px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .text {
+        width: 445px;
+        height: 84px;
+        left: 39px;
+        top: 127px;
+
+        font-size: 15px;
+        font-weight: normal;
+        line-height: 28px;
+
+        text-align: left;
+
+        text-transform: uppercase;
+    }
+}
+
+@media screen and (min-width: 1275px) {
+    .text {
+       width: 134.85px;
+       height: 56px;
+       left: 165px;
+       top: 102px;
+    }
+
 }

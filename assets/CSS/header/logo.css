@@ -10,3 +10,22 @@ position: absolute;
         top: 62px;
     }
 }
+
+@media screen and (min-width: 768px) {
+    .header__logo {
+        width: 134,85px;   
+        height: 56px;
+        left: 39px;
+        top: 50px;
+    }
+}
+
+@media screen and (min-width: 1275px) {
+    .header__logo {
+       width: 134.85px;
+       height: 56px;
+       left: 165px;
+       top: 102px;
+    }
+
+}

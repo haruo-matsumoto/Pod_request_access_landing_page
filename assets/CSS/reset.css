@@ -13,3 +13,23 @@ body {
         height: 667px;
     }
 }
+
+@media screen and (min-width: 768px) {
+    body {
+        height: 1024px;
+    }
+    .pattern__dots {
+        background-image: url(../../assets/desktop/bg-pattern-dots.svg);
+        position: absolute;
+        width: 232px;
+        height: 104px;
+        left: 30px;
+        top: 1010px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    body {
+        height: 900px;
+    }
+}

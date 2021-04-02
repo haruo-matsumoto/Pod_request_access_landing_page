@@ -1,3 +1,5 @@
+
+@media screen and (max-width: 375px) {
 .main__brand {
 position: absolute;
 width: 313.85px;
@@ -35,5 +37,46 @@ width: 75.88px;
 height: 14.9px;
 left: 268px;
 top: 401px;
-
 }
+}
+
+@media screen and (min-width: 768px) {
+    .main__brand {
+        position: absolute;
+        width: 536px;
+        height: 29px;
+        left: 39px;
+        top: 738px;
+    }    
+        .main__brand--spotify {
+            position: absolute;
+            width: 96px;
+            height: 29px;
+            left: 0rem;
+            top: -22rem;
+        }
+        .main__brand--apple {
+        position: absolute;
+        left: 7rem;
+        right: 0%;
+        top: -22rem;
+        bottom: 0%;
+        }
+        
+        .main__brand--google{
+        position: absolute;
+        width: 125px;
+        height: 18px;
+        left: 14rem;
+        top: -21.7rem;
+        }
+        
+        .main__brand--pocket {
+        position: absolute;
+        width: 129px;
+        height: 26px;
+        left: 23rem;
+        top: -22rem;
+        }
+        
+    }

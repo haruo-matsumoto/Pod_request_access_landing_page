@@ -1,16 +1,43 @@
 .title__secondline{
-    position: absolute;
-    width: 327px;
-    height: 76px;
-    left: 24px;
-    top: 175px;
-    
-    font-size: 26px;
-    line-height: 38px;
-
-    
-    text-align: center;
-    text-transform: uppercase;
-    
+    position: absolute;  
     color: #FFFFFF;
+}
+
+@media screen and (max-width: 375px) {
+    .title__secondline {
+        width: 327px;
+        height: 76px;
+        left: 24px;
+        top: 175px;
+        
+        font-size: 26px;
+        line-height: 38px;
+
+        text-align: center;
+        text-transform: uppercase;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .title__secondline {
+        width: 635px;
+        height: 112px;
+        left: -137px;
+        /*top: 351px;*/
+
+        font-size: 48px;
+        line-height: 56px;
+
+        text-transform: uppercase;
+    }
+}
+
+@media screen and (min-width: 1275px) {
+    .title__secondline {
+       width: 134.85px;
+       height: 56px;
+       left: 165px;
+       top: 102px;
+    }
+
 }
