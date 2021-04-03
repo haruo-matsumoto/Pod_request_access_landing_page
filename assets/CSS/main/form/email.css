@@ -51,12 +51,12 @@ color: #FFFFFF;
 
 @media screen and (min-width: 1275px) {
     .email {
-        border-radius: 6rem;
-        width: 327px;
-        height: 46px;
-        left: 24px;
-        top: 465px;
-        opacity: 0.5;
+        height: 56px;
+        width: 427px;
+        left: 0px;
+        top: 0px;
+        border-radius: 28px;
+        
    }
    
    .email::placeholder {

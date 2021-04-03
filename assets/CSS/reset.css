@@ -1,11 +1,14 @@
 body {
+    background:  #121725;
     font-family: Chivo, sans-serif;
     font-weight: 400;
-    font-style: normal;
-    text-align: center;
-    background: #121725;
+    font-style:  normal;
+    
+    margin:  0 auto;
     padding: 0 auto;
-    margin: 0 auto;
+
+    text-align: center;
+    
 }
 
 @media screen and (max-width: 375px) {
@@ -21,10 +24,11 @@ body {
     .pattern__dots {
         background-image: url(../../assets/desktop/bg-pattern-dots.svg);
         position: absolute;
-        width: 232px;
+        
         height: 104px;
-        left: 30px;
-        top: 1010px;
+        left:   30px;
+        top:    1010px;
+        width:  232px;
     }
 }
 
@@ -32,4 +36,14 @@ body {
     body {
         height: 900px;
     }
+    .pattern__dots {
+        background-image: url(../../assets/desktop/bg-pattern-dots.svg);
+        position: absolute;
+        height: 104px;  
+        left:   1208px;
+        top:    718px;
+        width:  232px;      
+    }
+
 }
+

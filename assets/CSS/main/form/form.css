@@ -28,9 +28,11 @@ top: 465px;
 @media screen and (min-width: 1275px) {
     .form {
         position: absolute;
-        width: 327px;
-        height: 108px;
-        left: 24px;
-        top: 465px;
+        height: 56px;
+        width: 427px;
+        left: 0px;
+        top: 272px;
+        border-radius: 0px;
+
     }
 }    

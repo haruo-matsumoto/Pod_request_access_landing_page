@@ -1,6 +1,6 @@
 .button {
-background-color: #7fffd4;    
-font-weight: bold;
+    background-color: #7fffd4;    
+    font-weight: bold;
 
 }
 @media screen and (max-width: 375px) {
@@ -29,7 +29,11 @@ font-weight: bold;
 
 @media screen and (min-width: 1275px) {
     .button {
- 
+        height: 46px;
+        width: 185px;
+        left: 127px;
+        top: -54px;
+        border-radius: 6rem;
     }
 
 }

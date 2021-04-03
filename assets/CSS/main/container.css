@@ -21,6 +21,12 @@
 }
 
 @media screen and (min-width: 1275px) {
-   
+   .container {
+        height: 509px;
+        width: 723px;
+        left: 165px;
+        top: 261px;
+        border-radius: 0px;  
+   }
 
 }

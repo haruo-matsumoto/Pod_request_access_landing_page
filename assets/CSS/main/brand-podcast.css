@@ -1,43 +1,43 @@
 
 @media screen and (max-width: 375px) {
-.main__brand {
-position: absolute;
-width: 313.85px;
-height: 17px;
-left: auto;
-top: auto;
-}
+    .main__brand {
+        position: absolute;
+        width: 313.85px;
+        height: 17px;
+        left: auto;
+        top: auto;
+    }
 
-.main__brand--spotify {
-position: absolute;
-width: 55.94px;
-height: 16.95px;
-left: 30.03px;
-top: 400.03px;
-}
-.main__brand--apple {
-position: absolute;
-width: 45px;
-height: 17px;
-left: 109px;
-top: 400px;
-}
+    .main__brand--spotify {
+        position: absolute;
+        width: 55.94px;
+        height: 16.95px;
+        left: 30.03px;
+        top: 400.03px;
+    }
+    .main__brand--apple {
+        position: absolute;
+        width: 45px;
+        height: 17px;
+        left: 109px;
+        top: 400px;
+    }
 
-.main__brand--google{
-position: absolute;
-width: 72.97px;
-height: 10.67px;
-left: 179px;
-top: 403px;
-}
+    .main__brand--google{
+        position: absolute;
+        width: 72.97px;
+        height: 10.67px;
+        left: 179px;
+        top: 403px;
+    }
 
-.main__brand--pocket {
-position: absolute;
-width: 75.88px;
-height: 14.9px;
-left: 268px;
-top: 401px;
-}
+    .main__brand--pocket {
+        position: absolute;
+        width: 75.88px;
+        height: 14.9px;
+        left: 268px;
+        top: 401px;
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -48,35 +48,79 @@ top: 401px;
         left: 39px;
         top: 738px;
     }    
-        .main__brand--spotify {
-            position: absolute;
-            width: 96px;
-            height: 29px;
-            left: 0rem;
-            top: -22rem;
-        }
-        .main__brand--apple {
+    .main__brand--spotify {
+        position: absolute;
+        width: 96px;
+        height: 29px;
+        left: 0rem;
+        top: -22rem;
+    }
+    .main__brand--apple {
         position: absolute;
         left: 7rem;
         right: 0%;
         top: -22rem;
         bottom: 0%;
-        }
+    }
         
-        .main__brand--google{
+    .main__brand--google{
         position: absolute;
         width: 125px;
         height: 18px;
         left: 14rem;
         top: -21.7rem;
-        }
+    }
         
-        .main__brand--pocket {
+    .main__brand--pocket {
         position: absolute;
         width: 129px;
         height: 26px;
         left: 23rem;
         top: -22rem;
-        }
-        
     }
+        
+}
+
+@media screen and (min-width: 1275px) {
+    .main__brand {
+        position: absolute;
+        height: 29px;
+        width: 536px;
+        left: 0px;
+        top: 392px;
+        border-radius: 0px;
+
+    }    
+    .main__brand--spotify {
+            position: absolute;
+            height: 29px;
+            width: 96px;
+            left: 0px;
+            top: 82px;
+            border-radius: 0px;
+    }
+    .main__brand--apple {
+        position: absolute;
+        left: 7rem;
+        right: 0%;
+        top: 5.2rem;
+        bottom: 0%;
+    }
+            
+    .main__brand--google {
+        position: absolute;
+        width: 125px;
+        height: 18px;
+        left: 14rem;
+        top: 5.7rem;
+    }
+            
+    .main__brand--pocket {
+        position: absolute;
+        width: 129px;
+        height: 26px;
+        left: 23rem;
+        top: 5.5rem;
+    }
+            
+}

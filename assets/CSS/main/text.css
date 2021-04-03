@@ -1,7 +1,6 @@
 .text {
 position: absolute;
 
-
 text-align: center;
 
 color: #C2CBE5;
@@ -31,17 +30,19 @@ color: #C2CBE5;
         line-height: 28px;
 
         text-align: left;
-
-        text-transform: uppercase;
     }
 }
 
 @media screen and (min-width: 1275px) {
     .text {
-       width: 134.85px;
-       height: 56px;
-       left: 165px;
-       top: 102px;
+       text-align: left;
+       font-size: 15px; 
+       height: 84px;
+       width: 445px;
+       left: 0px;
+       top: 148px;
+
+
     }
 
 }
